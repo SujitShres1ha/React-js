@@ -11,6 +11,9 @@ function App() {
     <button onClick = {()=>{
         if (count < 20){
         setCount(count+1)
+        // setCount(count+1)
+        // setCount(count+1)
+        setCount(prevCount => prevCount+1)
       }
     }}>Increase Count: {count}</button><br />
     <button onClick={()=>count>0?setCount(count-1):setCount(count)}>Decrease Count: {count}</button>
