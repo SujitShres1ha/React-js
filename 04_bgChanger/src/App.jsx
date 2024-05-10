@@ -12,7 +12,7 @@ function App() {
     <div className=' flex space-x-6 flex-wrap bottom-11 '>
     <Button color = 'Green'/> 
     <Button color = 'Yellow'/>
-    <Button color = 'Black'/>v
+    <Button color = 'Black'/>
     <Button color = 'Orange'/>
     <Button color = 'Blue'/>
     <Button color = 'Pink'/>
