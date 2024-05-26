@@ -10,3 +10,5 @@ Navlink is a special type of Link which can be "active" or "inactive" provided i
 `Outlet` like a placeholder for your pages. When you navigate to a different page, `Outlet` gets replaced with the content of that page.
 
 We define routing paths in a variable and pass it to `RouterProvider` as a prop.
+
+`useParams` is a hook that allows you to access URL parameters. In a route like `/user/:id`, `:id` is a URL parameter. Inside the component rendered by this route, you can use `useParams` to get the value of `id` from the current URL.
