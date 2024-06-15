@@ -110,11 +110,11 @@ async deleteFile(id){
   }
 }
 
-async filePreview(id){
+async filePreview(fileId){
   try {
     return this.bucket.getFilePreview(
       conf.appwriteBucketId,
-      id
+      fileId
     )
   } catch (error) {
     console.log(`File Preview Error: ${error}`)
@@ -124,6 +124,6 @@ async filePreview(id){
 
 
 
-const service = new Service()
+const appwriteService = new Service()
 
-export default service
+export default appwriteService
